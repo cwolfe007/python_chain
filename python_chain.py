@@ -36,9 +36,9 @@ class Calc():
           return self.total
 
 assert Calc().one().equals() == 1
-assert Calc().one().plus().three().equals()  == 4
-assert Calc().one().plus().three().plus().two().plus().one().plus().three().equals() == 10
+assert Calc().three().plus().one().equals()  == 4
+assert Calc().two().plus().three().plus().one().plus().one().plus().three().equals() == 10
 assert Calc().one().plus().two().equals() == 3
-assert Calc().one().plus().three().plus().two().plus().one().equals() == 7
+assert Calc().two().plus().three().plus().one().plus().one().equals() == 7
 assert Calc().one().plus().three().plus().two().plus().one().plus().three().equals() == 10
     
